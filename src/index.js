@@ -4,8 +4,8 @@ import App from './App';
 
 ReactDOM.render(
   <div>
-  
-  
+  <App />
+  <App />
   <App />
   </div>
 

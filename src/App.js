@@ -1,13 +1,16 @@
 import React from 'react';
 import './app.css';
-import PricingContent from './pricing';
+import Cse from './cs';
 
-function App() {
+
+const App = () => {
+ 
+ 
   return (
-    <div>
-      <PricingContent />
-    </div>
-
+    
+      <Cse />
+      
+    
   );
 }
 

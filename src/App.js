@@ -1,13 +1,16 @@
-import React from 'react';
-import Rab from './ResponsiveAppBar';
+import React from "react";
+// import ReactDom from 'react-dom'
+import "./app.css";
+import Navbar from "./Component/Navbar";
+import Pricing from "./Pages/pricing";
 
-function App() {
+const App = () => {
   return (
-    <div>
-      <Rab/> <Rab/> <Rab/> <Rab/> <Rab/>
-    </div>
-
+    <>
+      <Navbar />
+      <Pricing />
+    </>
   );
-}
+};
 
 export default App;

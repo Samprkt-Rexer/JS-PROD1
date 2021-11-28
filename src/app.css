@@ -1,0 +1,15 @@
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://ix-www.imgix.net/hp/snowshoe.jpg');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.w3-jumbo {
+    font-size: 64px!important;
+    color: black;
+    border: 1px solid;
+    margin-top: 205px;
+}
+

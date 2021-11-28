@@ -5,12 +5,12 @@ import Navbar from "./Component/Navbar";
 import Pricing from "./Pages/pricing";
 
 const App = () => {
-  return (    <>
-    <Navbar/> 
-    <Pricing/> 
-   </>
+  return (
+    <>
+      <Navbar />
+      <Pricing />
+    </>
   );
 };
 
 export default App;
-
